@@ -1,2 +1,0 @@
-# andrewoneill.io
-Personal Website
