@@ -1,0 +1,48 @@
+/* Big Tablets to 1200px: widths smaller than the 1140px row */
+@media only screen and (max-width: 1200px){
+    .banner-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row{ padding: 0 2%; }
+    
+}
+
+/* Small to big Tablets -  Landscape (iPad): from 768 to 1023px */
+@media only screen and (max-width: 1023px){
+    body{ font-size: 18px; }
+    section{ padding: 60px 0;}
+    
+    .icon-small{ 
+        width : 17px;
+        margin-right: 5px; 
+    }
+    
+}
+
+/* small phones to Tablets (iPad): from 481 to 767px */
+@media only screen and (max-width: 767px){
+    body{ font-size: 16px; }
+    section{ padding 30px 0; }
+    
+    .row,
+    .banner-text-box{
+        padding: 0 6%; 
+    }
+    
+    .col{ 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    
+    h1{ font-size: 180%;}
+    h2{ font-size: 150%;}
+    
+}
+
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+}
