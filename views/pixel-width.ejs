@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="pixel-width-css.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+    </head>
+    <body onload="myFunction()" onresize="myFunction()">
+        <p class="pixel-width" id="pixel-width"></p>
+        <script>
+        function myFunction() {
+            var w = window.outerWidth;
+            var h = window.outerHeight;
+            var txt =  w + "px " + h + "px";
+            document.getElementById("pixel-width").innerHTML = txt;
+            console.log(txt);
+        }
+        </script>
+        
+    </body>
+</html>
