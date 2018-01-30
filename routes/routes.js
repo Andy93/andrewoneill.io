@@ -3,12 +3,20 @@ module.exports = function(app) {
     // =====================================
     // HOME PAGE (with login links) ========
     // =====================================
-    app.get('/', function(req, res) {
-        res.render('index.ejs'); // load the index.ejs
+    app.get('/', function(req, res){
+      res.render('index.ejs');
     });
-    
-    app.get('/pixel-width', function(req, res) {
-        res.render('pixel-width.ejs'); // load the pixel-width.ejs
+
+    app.get('/playground', function(req, res){
+      res.render('playground.ejs');
+    });
+
+    app.get('/pixel-width', function(req, res){
+      res.render('pixel-width.ejs');
+    });
+
+    app.get('/mini-projects', function(req, res){
+      res.render('mini-projects.ejs');
     });
     
     // 404 & 500 errors
