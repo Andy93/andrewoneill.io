@@ -3,14 +3,6 @@ const app = express()
 let server = require('http').Server(app);
 var port = process.env.PORT || 8000
 
-app.get('/', function(req, res){
-  res.render('index.ejs');
-});
-
-app.get('/pixel-width', function(req, res){
-  res.render('pixel-width.ejs');
-});
-
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs'); // set up ejs for templating
 app.use(express.static('views'));
