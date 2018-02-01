@@ -14,6 +14,13 @@
     body{ font-size: 20px; }
     section{ padding: 60px 0;}
     
+    .banner-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row{ padding: 0 4%; }
+    
     .icon-small{ 
         width : 17px;
         margin-right: 5px; 
@@ -22,13 +29,14 @@
 }
 
 /* small phones to Tablets (iPad): from 481 to 767px */
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 500px) and (max-width: 800px){
     body{ font-size: 18px; }
     section{ padding 30px 0; }
     
     .row,
     .banner-text-box{
-        padding: 0 6%; 
+        width: 100%;
+        padding: 0 6%;
     }
     
     .col{ 
@@ -43,11 +51,17 @@
 
 
 /* small phones: from 0 to 480px */
-@media only screen and (min-width: 0px) and (max-width: 480px){
+@media only screen and (min-width: 200px) and (max-width: 480px){
     body{ font-size: 16px; }
     
+    .row,
+    .banner-text-box{
+        width: 100%;
+        padding: 0 8%;
+    }
+    /*
     .col{ 
         width: 100%;
         margin: 0 0 4% 0;
-    }
+    }*/
 }
