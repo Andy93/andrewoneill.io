@@ -52,20 +52,15 @@
 
 
 /* small phones: from 0 to 480px */
-@media only screen and (min-width: 200px) and (max-width: 480px){
+@media only screen and (max-width: 480px){
     body{ font-size: 16px; }
     
-    .row,
     .banner-text-box{
         width: 100%;
         padding: 0 8%;
-        text-transform: lowercase;
+        text-transform: uppercase;
     }
     
-    .col{ 
-        width: 100%;
-        margin: 0 0 4% 0;
-    }
-    
+    .row{width: 100%;}
     
 }
