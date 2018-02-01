@@ -3,6 +3,7 @@
     .banner-text-box{
         width: 100%;
         padding: 0 2%;
+        text-transform: lowercase;
     }
     
     .row{ padding: 0 2%; }
@@ -58,10 +59,13 @@
     .banner-text-box{
         width: 100%;
         padding: 0 8%;
+        text-transform: lowercase;
     }
-    /*
+    
     .col{ 
         width: 100%;
         margin: 0 0 4% 0;
-    }*/
+    }
+    
+    
 }
