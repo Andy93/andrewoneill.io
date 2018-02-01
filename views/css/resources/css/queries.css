@@ -11,7 +11,7 @@
 
 /* Small to big Tablets -  Landscape (iPad): from 768 to 1023px */
 @media only screen and (max-width: 1023px){
-    body{ font-size: 18px; }
+    body{ font-size: 20px; }
     section{ padding: 60px 0;}
     
     .icon-small{ 
@@ -23,7 +23,7 @@
 
 /* small phones to Tablets (iPad): from 481 to 767px */
 @media only screen and (max-width: 767px){
-    body{ font-size: 16px; }
+    body{ font-size: 22px; }
     section{ padding 30px 0; }
     
     .row,
@@ -49,7 +49,7 @@
 
 /* small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
-    
+    body{ font-size: 24px; }
     .col{ 
         width: 100%;
         margin: 0 0 4% 0;
