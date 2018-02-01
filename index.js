@@ -3,12 +3,7 @@ const app = express()
 let server = require('http').Server(app);
 var port = process.env.PORT || 8000
 
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs'); // set up ejs for templating
-app.use(express.static('views'));
-
-
-    app.get('/', function(req, res){
+app.get('/', function(req, res){
       res.render('index.ejs');
     });
 
@@ -33,6 +28,10 @@ app.use(express.static('views'));
       console.error(err.stack);
       res.status(500).send('Something broke!');
     });
+
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs'); // set up ejs for templating
+app.use(express.static('views'));
 
 require('./routes/routes.js');
 
