@@ -65,7 +65,10 @@
         font-size: 70%;
     }
     
-    h1{ font-size: 150%;}
-    h2{ font-size: 120%;}
+    h1{ font-size: 180%;}
+    h2{ font-size: 150%;}
     
+    .footer-nav-left .icon-small{
+        font-size:200%;
+    }
 }
